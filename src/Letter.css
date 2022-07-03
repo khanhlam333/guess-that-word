@@ -1,0 +1,23 @@
+.letter {
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cross {
+    position: absolute;
+}
+
+#cross-left, #cross-right {
+    position: absolute;
+    width: 1rem;
+    background-color: red;
+    border: solid red;
+  }
+  #cross-right {
+    transform: rotate(-40deg);
+  }
+  #cross-left {
+    transform: rotate(40deg);
+  }

@@ -1,0 +1,57 @@
+.game {
+  display: flex;
+  gap: 2rem;
+  padding: 0 0.8rem 1rem 0.8rem;
+}
+
+.alphabet {
+  display: flex;
+  gap: 2rem;
+}
+
+#input {
+  padding: 0.3rem;
+}
+
+.showcase {
+  display: flex;
+  gap: 3rem;
+}
+
+.turns, .guesses, .results {
+  display: flex;
+  flex-direction: column;
+}
+
+.turns > :first-child, .guesses > :first-child, .results > :first-child {
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  gap: 1.5rem;
+}
+
+#word {
+  font-weight: bold;
+}
+
+.containerTwo {
+  display: flex;
+  gap: 1rem;
+}
+
+.definitions, .rules {
+  border: solid DeepSkyBlue;
+  border-radius: 30px;
+}
+
+#definition, #rule, #disclaimer {
+  text-align: center;
+}
+
+#disclaimer {
+  font-size: 0.8rem;
+  color: DarkRed;
+  margin: 0px 5px;
+}

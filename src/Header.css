@@ -1,0 +1,15 @@
+.header {
+    background-color: DeepSkyBlue;
+    padding: 0.3rem;
+    margin: 0 0 0.8rem 0;
+}
+
+.center {
+    text-align: center;
+    color: white;
+}
+
+#red {
+    color: red;
+    text-align: center;
+}
