@@ -241,11 +241,11 @@ export default function App () {
         {!seeDefinition && <div className="rules">
           <h3 id="rule">Rules</h3>
           <ul>
-          <li>Press "Generate A Random Word" to generate a random word for you to guess and also to play again</li>
+          <li>Press <span className="mockButton">Generate A Random Word</span> to generate a random word for you to guess and also to play again</li>
           <li>Press on any letters of the alphabet to cross out letters that (by deduction) cannot appear in the random generated word</li>
-          <li>Press "Clear" to clear the x's on the alphabet once you're done</li>
-          <li>Press "See Generated Word" to see the random generated word</li>
-          <li>Press "Search Definition" to search the definition(s) of the random word if you don't know what it means</li>
+          <li>Press <span className="mockButton">Clear</span> to clear the x's on the alphabet once you're done</li>
+          <li>Press <span className="mockButton">See Generated Word</span> to see the random generated word</li>
+          <li>Press <span className="mockButton">Search Definition</span> to search the definition(s) of the random word if you don't know what it means</li>
           </ul>
         </div>}
       </div>
